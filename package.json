@@ -1,0 +1,101 @@
+{
+  "name": "audityzer-platform",
+  "version": "0.1.0",
+  "description": "AI-powered Web3 security platform for automated smart contract auditing, DApp security scanning, and blockchain security monitoring",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "audit:slither": "slither contracts/",
+    "audit:mythril": "myth analyze contracts/*.sol",
+    "build": "webpack --mode production",
+    "docker:build": "docker build -t audityzer-platform .",
+    "docker:run": "docker run -p 3000:3000 audityzer-platform"
+  },
+  "keywords": [
+    "web3",
+    "security",
+    "blockchain",
+    "ethereum",
+    "smart-contracts",
+    "auditing",
+    "defi",
+    "ai",
+    "machine-learning",
+    "vulnerability-detection",
+    "dapp",
+    "polygon",
+    "bsc"
+  ],
+  "author": {
+    "name": "Ihor Romanenko",
+    "email": "rigoryanych1397@gmail.com",
+    "url": "https://github.com/romanchaa997"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romanchaa997/audityzer-platform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romanchaa997/audityzer-platform/issues"
+  },
+  "homepage": "https://github.com/romanchaa997/audityzer-platform#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "web3": "^4.3.0",
+    "ethers": "^6.9.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "axios": "^1.6.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.11.0",
+    "joi": "^17.11.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "rate-limiter-flexible": "^4.0.0",
+    "openai": "^4.24.1",
+    "@anthropic-ai/sdk": "^0.9.1",
+    "tensorflow": "^4.15.0",
+    "web3-utils": "^4.2.0",
+    "solidity-parser-antlr": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.1.1",
+    "supertest": "^6.3.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "@types/node": "^20.10.6",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "slither-analyzer": "^0.10.0",
+    "mythril": "^0.24.7"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
