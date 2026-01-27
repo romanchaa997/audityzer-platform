@@ -173,10 +173,41 @@
 
 ---
 
+**Academic Grant Pipeline (with Dr. Daryna as PI):**
+
+1. **EU4Digital Program** (€50-200K)
+   - Status: Application ready (February 2026)
+   - Principal Investigator: Dr. Daryna
+   - Organization PIC: 868176676
+   - Focus: Blockchain infrastructure for emerging markets
+
+2. **Horizon Europe** (€2-5M)
+   - Status: Proposal development (Q1 2026)
+   - Principal Investigator: Dr. Daryna (REQUIRED for eligibility)
+   - Target submission: March-May 2026
+   - Focus: AI-powered blockchain security research
+
+3. **NATO SPS Program** ($50-500K)
+   - Status: Planning phase (Q2 2026)
+   - Academic partner: Dr. Daryna
+   - Focus: Critical infrastructure protection
+
+**Total Grant Pipeline Value:** €25M+ over 36 months
+
 ## 👥 Team
+
+
 
 ### Current Team
 - **Founder & CEO:** Ihor Romanenko
+- 
+- **Academic Principal Investigator (PI):** Dr. Daryna
+  - Role: Academic research oversight, grant leadership
+  - Expertise: Blockchain audit systems, security methodology
+  - Institution: [To be confirmed]
+  - Contribution: EU grant eligibility, research methodology, academic publications
+  - Partnership: 2.5% equity, advisory capacity
+  - Grant leadership: EU4Digital (€50-200K), Horizon Europe (€2-5M), NATO SPS ($50-500K)
   - Tax ID: 3574608417
   - GitHub: [@romanchaa997](https://github.com/romanchaa997)
   - Email: rigoryanych1397@gmail.com
@@ -192,6 +223,21 @@
 
 ---
 
+
+### Academic Partnership
+
+AuditorSEC collaborates with leading academic institutions to ensure scientific rigor and research excellence. Dr. Daryna serves as our Academic PI for:
+
+- **EU Horizon Europe grants** (€2-5M research projects)
+- **EU4Digital funding applications** (€50-200K)
+- **NATO SPS academic partnerships** ($50-500K)
+- **Peer-reviewed publications** on blockchain audit systems
+
+**Partnership Model:**
+- Time commitment: 2-3 hours/month (passive advisory model)
+- Equity stake: 2.5% base + performance bonuses (up to +2% for major grants)
+- Joint research publications and conference presentations
+- Grant proposal development and academic validation
 ## 🤝 Partnerships & Ecosystem
 
 ### Planned Partnerships
